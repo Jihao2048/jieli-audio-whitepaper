@@ -33,3 +33,9 @@ converted/
 converted_final/
 *.log
 rec.txt
+
+# Example output is reproducible from samples/example.f1a
+示例输出/
+
+# The vendor manual PDF is third-party documentation
+原始工具与资料/*.pdf
