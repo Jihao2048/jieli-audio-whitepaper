@@ -1,6 +1,8 @@
 MIT License
 
 Copyright (c) 2026 Jihao2048
+Reverse engineering, implementation and documentation by DeepSeek
+(DeepSeek Harness agent).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -31,9 +33,11 @@ that the converter works offline with no external dependencies:
     testf1a_dec.exe    JieLi F1A decoder, extracted from the vendor tool
                        package "音频文件转换工具_1.2.2.exe"
     msvcr100.dll       Microsoft Visual C++ runtime required by the above
-    ump3_ffmpeg.exe    FFmpeg build (N-76648-g6f520ce, 2015), GPL/LGPL
 
 These files are the property of their respective copyright holders and are
 NOT covered by the MIT license above. They are included solely so that users
-can decode their own audio files. FFmpeg is distributed under the terms of
-the LGPL/GPL; see https://ffmpeg.org/legal.html
+can decode their own audio files.
+
+Users who need `.ump3` decoding additionally supply their own FFmpeg build
+(not committed here). FFmpeg is distributed under the terms of the
+LGPL/GPL; see https://ffmpeg.org/legal.html

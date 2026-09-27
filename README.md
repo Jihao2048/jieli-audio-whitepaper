@@ -8,6 +8,15 @@
 
 [中文说明](README.zh-CN.md)
 
+> ### 🤖 Built by DeepSeek
+>
+> This entire project — the reverse engineering of the JieLi audio
+> containers, the format white paper under `docs/`, the Python decoder, the
+> tkinter GUI, the test suites and this documentation — was produced by
+> **DeepSeek** (DeepSeek Harness agent) working from the vendor's own tool
+> package. Every claim in the white paper is backed by a reproducible
+> experiment; the methods that did *not* work are documented too.
+
 ---
 
 ## What is this?
@@ -250,6 +259,15 @@ bundled decoder, and that one is small enough to ship.
 - The bundled `testf1a_dec.exe` comes from the vendor's own tool package and
   is used solely to decode the user's own files.
 - No firmware was modified and no licensing mechanism was bypassed.
+
+## Credits
+
+| Role | |
+|---|---|
+| **Reverse engineering, code, documentation** | **DeepSeek** (DeepSeek Harness agent) |
+| Repository owner / maintainer | [Jihao2048](https://github.com/Jihao2048) |
+| F1A decoding | `testf1a_dec.exe` from the JieLi vendor package |
+| MP3 decoding | FFmpeg (LGPL/GPL) |
 
 ## License
 

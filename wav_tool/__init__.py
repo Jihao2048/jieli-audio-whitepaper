@@ -11,6 +11,11 @@ Supported inputs
 
 The package ships the vendor decoder binaries it needs under ``tools/`` so
 that conversions work offline with no external dependencies.
+
+Credit
+------
+Reverse engineering, implementation and documentation by DeepSeek
+(DeepSeek Harness agent), 2026. See the repository README for details.
 """
 
 from .common import PcmData, read_wav, write_wav, sniff_format, hexdump

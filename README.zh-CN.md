@@ -2,6 +2,15 @@
 
 把杰理（JieLi）AD14N / SH50 系列的音频文件转回标准 WAV。
 
+[English](README.md)
+
+> ### 🤖 由 DeepSeek 完成
+>
+> 本项目的全部工作 —— 杰理音频容器的逆向分析、`docs/` 下的格式白皮书、
+> Python 解码器、tkinter 图形界面、测试套件以及本文档 —— 均由
+> **DeepSeek**（DeepSeek Harness agent）基于官方工具包完成。
+> 白皮书里的每一条结论都有可复现的实验支撑，**失败的假设和原因也一并记录**。
+
 ---
 
 ## 快速开始
@@ -226,3 +235,20 @@ python wav_tool/gui_selftest.py   # 图形界面，无需人工点击
    尤其是 `.f1a` 的私有频谱编码器只有官方工具知道。
 5. **`.ump3` 需要 ffmpeg**。工具会优先用系统 PATH 里的，
    找不到就用自带的 `tools/ump3_ffmpeg.exe`。
+
+---
+
+## 致谢
+
+| 角色 | |
+|---|---|
+| **逆向分析、代码实现、文档撰写** | **DeepSeek**（DeepSeek Harness agent）|
+| 仓库维护者 | [Jihao2048](https://github.com/Jihao2048) |
+| F1A 解码 | 杰理官方工具包中的 `testf1a_dec.exe` |
+| MP3 解码 | FFmpeg（LGPL/GPL）|
+
+## 许可
+
+代码部分 MIT，详见 [LICENSE](LICENSE)。
+随包二进制版权归原始权利人所有。
+
