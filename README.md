@@ -19,6 +19,26 @@
 
 ---
 
+## ⬇️ Downloads — the vendor tools are hard to find, so they are archived here
+
+The original vendor tool is no longer easy to obtain. Both it and the
+command line tools extracted from it are attached to the
+[**v1.0.0 release**](https://github.com/Jihao2048/jieli-audio-whitepaper/releases/tag/v1.0.0):
+
+| Archive | Size | Contents |
+|---|---|---|
+| **`jieLi-vendor-tools-1.2.2.zip`** | 27.3 MB | The original `音频文件转换工具_1.2.2.exe` plus its Chinese manual |
+| **`jieLi-cli-tools.zip`** | 22.4 MB | All 18 command line tools extracted from it, including two FFmpeg builds |
+
+You **do not need these** to convert files back to WAV — the repository's own
+toolkit does that. Download them if you want the vendor encoder, the FFmpeg
+builds, or the original manual.
+
+> ⚠️ The vendor GUI only converts *into* the chip formats. It cannot convert
+> back out. Use this project's toolkit for that.
+
+---
+
 ## What is this?
 
 If you own a Bluetooth speaker, a toy, or any voice-prompt device built on a

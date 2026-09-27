@@ -39,3 +39,6 @@ rec.txt
 
 # The vendor manual PDF is third-party documentation
 原始工具与资料/*.pdf
+
+# Release packaging scratch
+_release/
