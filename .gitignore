@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Vendored binaries are NOT committed.
+#
+# These are third-party copyrighted artifacts and one of them is ~34 MB,
+# which is far too large for a source repository. Users fetch or supply them
+# locally; see README for how the tool locates them.
+tools/ump3_ffmpeg.exe
+wav_tool/tools/ump3_ffmpeg.exe
+
+# The vendor tool package is kept out of version control for the same reason
+# (28 MB, third-party). Its extracted components are documented in docs/.
+原始工具与资料/音频文件转换工具_1.2.2.exe
+
+# Local scratch
+_work/
+converted/
+converted_final/
+*.log
+rec.txt
